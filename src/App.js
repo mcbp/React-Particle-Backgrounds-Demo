@@ -5,13 +5,15 @@ import ParticleBackground from 'react-particle-backgrounds'
 import Code1 from './Code1'
 import Code2 from './Code2'
 import Code3 from './Code3'
+import Code4 from './Code4'
 
 function App() {
 
   const containerStyle = {
     display: "flex",
     justifyContent: "center",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    marginBottom: "30px",
   }
 
   const demoStyle= {
@@ -150,7 +152,7 @@ function App() {
             <ParticleBackground style={bg4} settings={settings4}/>
           </div>
           <div style={codeStyle}>
-            <Code3/>
+            <Code4/>
           </div>
         </div>
       </div>
