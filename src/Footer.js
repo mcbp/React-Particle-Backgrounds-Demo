@@ -23,7 +23,7 @@ const Footer = function() {
   }
 
   return (
-    <a href="https://github.com/mcbp/React-Particle-Backgrounds-Demo" style={divStyle}>
+    <a href="https://github.com/mcbp/React-Particle-Backgrounds" style={divStyle}>
       <i class="fab fa-github" style={iconStyle}></i>
       <span style={textStyle}>mcbp</span>
     </a>
